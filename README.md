@@ -1,16 +1,15 @@
-# api_exception
+# API Calls with Dio
 
-A new Flutter project.
+This project demonstrates how to make API calls using the Dio package in Flutter. The example includes various HTTP methods such as GET, POST, PUT, and DELETE, and handles different types of errors that can occur during API interactions.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Usage
 
-A few resources to get you started if this is your first Flutter project:
+1. Import the necessary dependencies:
+import 'package:dio/dio.dart';
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Make API calls using the makeApiCall() method, specifying the URL, HTTP method, and optional data and headers:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Feel free to modify and enhance the README file based on your project's specific needs and requirements.
+
